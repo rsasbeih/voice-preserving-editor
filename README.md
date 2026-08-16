@@ -44,7 +44,7 @@ git clone https://github.com/rsasbeih/voice-preserving-editor.git ~/.claude/skil
 
 On Windows, that target is `%USERPROFILE%\.claude\skills\voice-preserving-editor`.
 
-**As a bundle.** `ruba-voice-editor.skill` is a zipped copy of the same `SKILL.md`, for uploading to clients that take packaged skills.
+**As a bundle.** `voice-preserving-editor.skill` is a zipped copy of the same `SKILL.md`, for uploading to clients that take packaged skills. It's an ordinary ZIP archive with a different extension, so if you want to look inside it, copy it and rename the copy to `.zip`.
 
 Either way, `SKILL.md` and its YAML frontmatter are the skill. This README is just for people reading the repo.
 
@@ -55,6 +55,10 @@ It fires on its own when you ask Claude to edit, clean up, tighten, polish, fix,
 ## Companion skill
 
 It's built to run alongside `humanizer` (based on Wikipedia's "Signs of AI writing"), which it consults on every pass to catch tells and then check it didn't introduce new ones in its own edits.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
 
 ## The rule underneath all of it
 
