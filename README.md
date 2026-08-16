@@ -36,7 +36,7 @@ Some things it surfaces and lets you decide on, instead of overwriting: suspecte
 
 ## Install
 
-**As a personal skill.** Clone into your Claude skills directory so the folder name matches the skill name:
+Clone into your Claude skills directory so the folder name matches the skill name:
 
 ```bash
 git clone https://github.com/rsasbeih/voice-preserving-editor.git ~/.claude/skills/voice-preserving-editor
@@ -44,9 +44,7 @@ git clone https://github.com/rsasbeih/voice-preserving-editor.git ~/.claude/skil
 
 On Windows, that target is `%USERPROFILE%\.claude\skills\voice-preserving-editor`.
 
-**As a bundle.** `voice-preserving-editor.skill` is a zipped copy of the same `SKILL.md`, for uploading to clients that take packaged skills. It's an ordinary ZIP archive with a different extension, so if you want to look inside it, copy it and rename the copy to `.zip`.
-
-Either way, `SKILL.md` and its YAML frontmatter are the skill. This README is just for people reading the repo.
+`SKILL.md` and its YAML frontmatter are the skill. This README is just for people reading the repo.
 
 ## Triggering it
 
